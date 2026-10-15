@@ -2,5 +2,9 @@
   <span class="tag">Independent project</span>
   <h3>Multi-modal RAG chatbot for design and engineering manuals</h3>
   <p class="meta"><span class="venue">Spring 2024</span></p>
+  <figure class="fig" data-fig>
+    {% include "figures/rag-manuals.svg" %}
+    <figcaption>Chunks keep the manuals' own structure, so a table row or a figure arrives in the prompt with its context instead of being cut mid-way.</figcaption>
+  </figure>
   <p>A retrieval-augmented chatbot over the MUTCD, USDOT and FHWA manuals, built with Python, LangChain, Pinecone and sentence transformers. It uses the documents' own structure of text, figures and tables, reaches an F1 score of 86%, and RAGAS-driven refinement improved retrieval and generation by up to 48%.</p>
 </article>

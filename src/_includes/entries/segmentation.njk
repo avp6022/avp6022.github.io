@@ -1,0 +1,14 @@
+<article class="entry" id="segmentation">
+  <span class="tag">Journal article</span>
+  <h3>A generative approach to generalize deep learning models for pavement distress segmentation</h3>
+  <p class="meta"><span class="venue"><i>Data Science for Transportation</i>, Springer Nature (2025) &nbsp;·&nbsp; with S. Ilgin Guler</span></p>
+  <figure class="fig" data-fig>
+    {% include "figures/segmentation.svg" %}
+    <figcaption>Crack detectors trained on one dataset often fail on roads that look different. The training images are translated into the target conditions with generative models, so the segmentation network learns cracks rather than one camera's look. Pavement textures in the figure are drawn, not real images.</figcaption>
+  </figure>
+  <p>Deep learning models for pavement distress work well on images like the ones they were trained on and degrade on new cities, cameras, lighting and surfaces. Labelling new data for every agency is expensive.</p>
+  <p>This work adapts a segmentation model to such out-of-distribution data with CycleGAN and variational autoencoders, which re-render labelled training images in the style of the target roads. Instance segmentation on real out-of-distribution images improved by 48%.</p>
+  <ul class="metrics">
+    <li><span class="v">+48%</span><span class="k">instance segmentation on unseen roads</span></li>
+  </ul>
+</article>

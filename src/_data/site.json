@@ -48,6 +48,10 @@
       "label": "Experience"
     },
     {
+      "id": "research",
+      "label": "Research"
+    },
+    {
       "id": "publications",
       "label": "Publications"
     },

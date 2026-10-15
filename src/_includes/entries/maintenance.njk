@@ -1,0 +1,16 @@
+<article class="entry" id="maintenance">
+  <span class="tag">Journal article</span>
+  <h3>Traffic-aware, reliability-based pavement maintenance planning</h3>
+  <p class="meta"><span class="venue"><i>ASCE Journal of Infrastructure Systems</i> (2026) and <i>Transportation Research Record</i> (2023) &nbsp;·&nbsp; with S. Ilgin Guler</span></p>
+  <figure class="fig" data-fig>
+    {% include "figures/maintenance.svg" %}
+    <figcaption>Closing a lane for maintenance does not only slow that road: queues spill back and shockwaves spread through the network. The framework simulates this with a link transmission model, scores every candidate schedule on agency, travel time, fuel and reliability costs, and lets a genetic algorithm choose which roads to treat and in which year. Values in the figure are illustrative.</figcaption>
+  </figure>
+  <p>Road agencies have to decide which pavement sections to repair, and when, on a fixed budget. Most planning tools treat each section on its own and ignore what a work zone does to traffic. This work plans maintenance for the whole network at once, counting the delay and extra fuel that work zones cause and the risk that a neglected section fails.</p>
+  <p>Pavement deterioration is modelled as a stochastic process on roughness (IRI), with an accelerated failure time Weibull model giving each section's probability of failing before the next treatment. Reliability enters as an explicit constraint, so the plan keeps failure risk within a target rather than only penalising bad condition after the fact.</p>
+  <ul class="metrics">
+    <li><span class="v">35%</span><span class="k">lower congestion cost</span></li>
+    <li><span class="v">$168K</span><span class="k">annual savings</span></li>
+    <li><span class="v">30%</span><span class="k">better condition forecasts (LSTM)</span></li>
+  </ul>
+</article>

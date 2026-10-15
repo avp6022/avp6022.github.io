@@ -1,0 +1,16 @@
+<article class="entry" id="surrogate">
+  <span class="tag">Journal article</span>
+  <h3>Surrogate modelling for pavement maintenance scheduling</h3>
+  <p class="meta"><span class="venue"><i>Data Science for Transportation</i>, Springer Nature (2025) &nbsp;·&nbsp; with S. Ilgin Guler</span></p>
+  <figure class="fig" data-fig>
+    {% include "figures/surrogate.svg" %}
+    <figcaption>Optimization times are for 200 schedule evaluations on 100 CPU cores, as reported in the paper; the surrogates need under an hour of data generation and half an hour of training first. The error curve is XGBoost's total-cost error against the full traffic simulation.</figcaption>
+  </figure>
+  <p>Simulating traffic for every candidate schedule makes traffic-aware maintenance planning accurate but slow: one optimization run took about 12 hours on 100 cores. This paper replaces the simulator inside the optimizer with surrogate models (BPR volume-delay functions, random forests and XGBoost) trained on simulated traffic responses.</p>
+  <p>XGBoost gave the best balance: total-cost error fell to 0.16% with 3 million training samples, the optimization ran in about 3.2 hours instead of 12, and a model trained on a 7×7 grid network still performed well on a different 5×5 network. The paper closes with guidelines for choosing a surrogate.</p>
+  <ul class="metrics">
+    <li><span class="v">12 h → 3.2 h</span><span class="k">optimization time</span></li>
+    <li><span class="v">0.16%</span><span class="k">total-cost error</span></li>
+    <li><span class="v">7×7 → 5×5</span><span class="k">transfers to new networks</span></li>
+  </ul>
+</article>
