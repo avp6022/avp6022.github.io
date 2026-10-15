@@ -1,0 +1,10 @@
+<h2 class="band-title" id="education">Education</h2>
+{%- for item in education %}
+<div class="award">
+  <span class="yr">{{ item.year }}</span>
+  <div>
+    <div class="t">{{ item.title }}</div>
+    <div class="d">{{ item.detail }}</div>
+  </div>
+</div>
+{%- endfor %}

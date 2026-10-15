@@ -1,0 +1,67 @@
+{
+  "name": "Abhishek Kumar Prajapati",
+  "title": "Abhishek Kumar Prajapati",
+  "description": "Portfolio of Abhishek Kumar Prajapati: data scientist working on optimization, machine learning and generative AI for transportation, logistics and infrastructure.",
+  "role": "Senior Data Scientist at Optym, Dallas · Ph.D. in Transportation Engineering, Penn State",
+  "statement": "I build optimization models and machine learning systems that help transportation and logistics networks run better at scale.",
+  "sub": "My Ph.D. at Penn State combined simulation-based optimization, graph neural networks and generative models for large-scale infrastructure management. Today I apply the same tools to freight: mixed-integer models for dock planning, data pipelines over tens of millions of records, and retrieval-augmented generation for working with technical documents.",
+  "interests": [
+    {
+      "title": "Optimization for logistics",
+      "text": "Mixed-integer and simulation-based optimization for planning and operations at scale."
+    },
+    {
+      "title": "Infrastructure asset management",
+      "text": "Maintenance scheduling and condition forecasting that account for traffic and reliability."
+    },
+    {
+      "title": "Generative AI and RAG",
+      "text": "Retrieval-augmented generation and fine-tuned language models for technical and regulated domains."
+    },
+    {
+      "title": "Computer vision for transportation",
+      "text": "Pavement distress segmentation, traffic monitoring and crowd density estimation."
+    }
+  ],
+  "links": [
+    {
+      "label": "psuprajapati@gmail.com",
+      "href": "mailto:psuprajapati@gmail.com",
+      "icon": "envelope",
+      "external": false
+    },
+    {
+      "label": "github.com/avp6022",
+      "href": "https://github.com/avp6022",
+      "icon": "github",
+      "external": true
+    }
+  ],
+  "footer": {
+    "email": "psuprajapati@gmail.com",
+    "github": "https://github.com/avp6022",
+    "location": "Dallas, TX, USA"
+  },
+  "sections": [
+    {
+      "id": "experience",
+      "label": "Experience"
+    },
+    {
+      "id": "publications",
+      "label": "Publications"
+    },
+    {
+      "id": "projects",
+      "label": "Projects"
+    },
+    {
+      "id": "education",
+      "label": "Education"
+    },
+    {
+      "id": "awards",
+      "label": "Awards"
+    }
+  ]
+}

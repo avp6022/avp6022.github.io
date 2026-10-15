@@ -1,0 +1,65 @@
+/* Autoplaying embedded video cards */
+
+.videos {
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+  gap:12px;
+  margin:18px 0 0;
+}
+
+/* Full-width, stacked cards for videos that should read larger than the default grid. */
+.videos-large {
+  grid-template-columns:1fr;
+  gap:20px;
+}
+
+.vcard {
+  border:1px solid var(--rule);
+  border-radius:4px;
+  overflow:hidden;
+  background:var(--panel);
+  font-family:var(--sans);
+  display:block;
+  border-bottom:1px solid var(--rule);
+  color:var(--ink);
+  cursor:default;
+}
+
+.vcard:hover {
+  border-color:var(--accent);
+}
+
+.vlabel {
+  font-size:13px;
+  padding:9px 11px;
+  line-height:1.35;
+  display:block;
+}
+
+.vlabel strong {
+  display:block;
+  font-size:14.5px;
+  font-weight:700;
+  color:var(--ink);
+}
+
+.vlabel span {
+  display:block;
+  color:var(--ink-faint);
+  font-size:11.5px;
+  margin-top:2px;
+}
+
+.vcard iframe,
+.vcard video {
+  display:block;
+  width:100%;
+  aspect-ratio:16/9;
+  border:0;
+  background:#000;
+}
+
+.vlabel a {
+  color:var(--accent);
+  border-bottom:none;
+}

@@ -1,0 +1,27 @@
+{
+  "journals": [
+    "<b>Prajapati, A. K.</b> & Guler, S. I. (2025). Surrogate-modeling for pavement maintenance scheduling. <i>Data Science for Transportation</i>, Springer Nature.",
+    "<b>Prajapati, A. K.</b> & Guler, S. I. (2025). Large-scale pavement management considering reliability and traffic dynamics. <i>ASCE Journal of Infrastructure Systems</i> (in production).",
+    "<b>Prajapati, A. K.</b> & Guler, S. I. (2025). Generative approach to generalize deep learning models for pavement distress segmentation. <i>Data Science for Transportation</i>, Springer Nature.",
+    "Gayah, V. V., Donnell, E. T., Liu, H. & <b>Prajapati, A. K.</b> (2024). Crash modification factors for high-tension cable median barriers: an empirical Bayes before-after study. <i>Transportation Research Record</i>.",
+    "<b>Prajapati, A. K.</b> & Guler, S. I. (2023). Accounting for traffic dynamics in pavement maintenance scheduling: a simulation-based optimization approach. <i>Transportation Research Record</i>.",
+    "Choubey, N., <b>Prajapati, A. K.</b>, Verma, A. & Chakraborty, A. (2020). Density estimation of heterogeneous crowd in mass religious gatherings using deep learning and a physics-based loss. <i>Soft Computing for Problem Solving</i>, Springer Singapore.",
+    "<b>Prajapati, A. K.</b>, Gora, A., Agarwal, A. & Ghosh, I. (2020). Use of computer vision to automatize traffic data collection under mixed traffic condition in India. <i>ASCE India Conference 2020</i>, Kolkata.",
+    "Das, A., <b>Prajapati, A. K.</b>, Zhang, P., Srinath, M. & Ranjbari, A. Leveraging Twitter data for sentiment analysis of transit user feedback: an NLP-based few-shot learning framework. <i>Nature Cities</i> (in review).",
+    "<b>Prajapati, A. K.</b> Quantitative and qualitative evaluation of enterprise-ready retrieval augmented generation (RAG) for compliance-regulated settings (in review)."
+  ],
+  "reports": [
+    "Gayah, V. V., Donnell, E. T., <b>Prajapati, A. K.</b> & Liu, H. (2023). CMFs for high-tension cable median barriers in Pennsylvania. <i>PennDOT Report 2023-ECMS-E04834-WO15</i>.",
+    "Guler, S. I., Gayah, V. V., Mahmud, A. & <b>Prajapati, A. K.</b> (2023). Economic impacts of transportation infrastructure investments. <i>Report FHWA-PA-2024-001-CIAMTIS WO06</i>."
+  ],
+  "conferences": [
+    "<b>Prajapati, A. K.</b> & Guler, S. I. (2026). Surrogate-assisted pavement maintenance scheduling with traffic dynamics and reliability. <i>105th Transportation Research Board Annual Meeting</i>, Washington D.C.",
+    "<b>Prajapati, A. K.</b> & Guler, S. I. (2025). Generative approach to generalize deep learning models for pavement distress segmentation. <i>104th TRB Annual Meeting</i>, Washington D.C.",
+    "<b>Prajapati, A. K.</b> & Guler, S. I. (2025). Large-scale pavement management considering reliability and traffic dynamics. <i>104th TRB Annual Meeting</i>, Washington D.C.",
+    "Gayah, V. V., Donnell, E. T., Liu, H. & <b>Prajapati, A. K.</b> (2024). Crash modification factors for high-tension cable median barriers: an empirical Bayes before-after study. <i>103rd TRB Annual Meeting</i>, Washington D.C.",
+    "<b>Prajapati, A. K.</b> & Guler, S. I. (2023). Accounting for traffic dynamics in pavement maintenance scheduling. <i>102nd TRB Annual Meeting</i>, Washington D.C.",
+    "<b>Prajapati, A. K.</b> & Guler, S. I. (2023). Generative AI based pavement distress segmentation framework for out-of-distribution data. <i>AI for Good Expo</i>, Institute for Computational and Data Sciences, University Park, PA.",
+    "<b>Prajapati, A. K.</b> & Guler, S. I. (2023). Impacts of work-zones on network-level user travel time and vehicle fuel consumption. <i>Transportation Asset and Infrastructure Management Conference</i>, Lancaster, PA.",
+    "Choubey, N., <b>Prajapati, A. K.</b>, Verma, A. & Chakraborty, A. (2020). Density estimation of heterogeneous crowd in mass religious gatherings using image processing, CNNs and denoising filter. <i>Soft Computing for Problem Solving 2020</i>, Singapore."
+  ]
+}

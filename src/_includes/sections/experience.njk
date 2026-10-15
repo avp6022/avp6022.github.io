@@ -1,0 +1,27 @@
+<h2 class="band-title" id="experience">Experience</h2>
+{%- for group in experience.groups %}
+<p class="sub-band">{{ group.group }}</p>
+{%- for item in group.items %}
+<div class="xp">
+  <div class="when-col">
+    <span class="when">{{ item.when }}</span>
+    {%- if item.logo %}
+    <img class="org-logo" src="{{ item.logo }}" alt="" width="96" height="96" loading="lazy">
+    {%- endif %}
+  </div>
+  <div>
+    <div class="where">{{ item.where }}</div>
+    <div class="what">{{ item.role }}</div>
+    <p>{{ item.summary }}</p>
+    {%- if item.link %}
+    <a class="jump" href="{{ item.link.href }}">{{ item.link.label }}</a>
+    {%- endif %}
+    {%- if item.details %}
+    {%- set detailsFile = item.details %}
+    {% include "partials/more.njk" %}
+    {%- endif %}
+  </div>
+</div>
+{%- endfor %}
+{%- endfor %}
+<p class="skills">{{ experience.skills }}</p>

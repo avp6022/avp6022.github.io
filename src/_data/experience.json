@@ -1,0 +1,51 @@
+{
+  "groups": [
+    {
+      "group": "Industry",
+      "items": [
+        {
+          "when": "Nov 2024 – present",
+          "where": "Optym",
+          "role": "Senior Data Scientist, Dallas, TX",
+          "summary": "Algorithms for last-mile planning and operations for less-than-truckload (LTL) carriers. Built mixed-integer models for trailer strip prioritization and trailer-to-door assignment that improved shift-wise dock planning and cut manpower cost by 25%, and Fabric and ADLS data pipelines over about 50 million records that feed the optimization engines, cutting processing time by 60%."
+        },
+        {
+          "when": "May – Jul 2024",
+          "where": "Strative.ai",
+          "role": "ML Engineer intern, San Francisco, CA",
+          "summary": "Retrieval-augmented generation pipelines with LangChain, Llama 3, Elasticsearch and Milvus, evaluated with RAGAS. A blended dense and sparse retriever with hybrid queries reached 89% top-10 retrieval accuracy on Natural Questions, and Ray on GKE cut ingestion, retrieval and evaluation time by 80%."
+        },
+        {
+          "when": "May – Aug 2018",
+          "where": "Sky-lark Drones",
+          "role": "ML intern (object detection), Bangalore",
+          "summary": "Trained an SSD object detector and designed post-processing to correct false positives and negatives, raising accuracy by 12%."
+        }
+      ]
+    },
+    {
+      "group": "Research",
+      "items": [
+        {
+          "when": "Jan 2021 – Dec 2023",
+          "where": "Urban Transportation Systems Lab, Penn State",
+          "role": "Research assistant, University Park, PA",
+          "summary": "Simulation-optimization for large-scale infrastructure asset management with graph neural networks and trust-region methods; a multi-objective model that cut congestion costs by up to 35% ($168,000 a year); LSTM condition forecasting 30% better than Monte Carlo baselines. Also designed domain-adaptation strategies (CycleGAN, variational autoencoders) that improved pavement distress segmentation on out-of-distribution data by 48%."
+        },
+        {
+          "when": "Jan – Nov 2024",
+          "where": "Institute for Computational and Data Sciences, Penn State",
+          "role": "HPC software consultant, University Park, PA",
+          "summary": "Led a team of 10 supporting 78 machine learning and AI research groups across Penn State, and managed the software stack and documentation, with Docker and MPI for distributed programs."
+        },
+        {
+          "when": "May – Aug 2019",
+          "where": "CiSTUP, Indian Institute of Science",
+          "role": "ML research intern, Bangalore",
+          "summary": "Led data collection and modelling for the Indo-Dutch Kumbh Mela experiment, building CNN models that measure pedestrian density in visually degraded scenes at 88% accuracy; the codebase is still used by the lab."
+        }
+      ]
+    }
+  ],
+  "skills": "Python · MATLAB · R · C++ · PyTorch · TensorFlow · Hugging Face · LangChain · XGBoost · Gurobi · CPLEX · Xpress · AMPL · Pyomo · Azure · Microsoft Fabric · PostgreSQL · Pinecone · Elasticsearch · Docker · Ray · HPC"
+}

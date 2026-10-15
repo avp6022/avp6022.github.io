@@ -1,0 +1,19 @@
+<h2 class="band-title" id="publications">Publications</h2>
+<p class="sub-band">Journal articles</p>
+<ol class="pubs">
+{%- for item in publications.journals %}
+  <li>{{ item | safe }}</li>
+{%- endfor %}
+</ol>
+<p class="sub-band">Technical reports</p>
+<ol class="pubs">
+{%- for item in publications.reports %}
+  <li>{{ item | safe }}</li>
+{%- endfor %}
+</ol>
+<p class="sub-band">Refereed conference proceedings</p>
+<ol class="pubs">
+{%- for item in publications.conferences %}
+  <li>{{ item | safe }}</li>
+{%- endfor %}
+</ol>
